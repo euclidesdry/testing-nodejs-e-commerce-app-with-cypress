@@ -1,0 +1,17 @@
+{
+  "name": "testing-nodejs-e-commerce-app-with-cypress",
+  "version": "0.0.01",
+  "description": "Study Case - Working with Cypress to test an E-commerce Application Developed in Javascript",
+  "main": "index.js",
+  "repository": "https://github.com/euclidesdry/testing-nodejs-e-commerce-app-with-cypress",
+  "author": "euclidesdry <euclidesdry@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "cypress run --record",
+    "cypress:open": "./node_modules/.bin/cypress open"
+  },
+  "dependencies": {
+    "cypress": "^9.2.0"
+  }
+}
